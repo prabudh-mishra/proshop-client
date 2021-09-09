@@ -1,5 +1,6 @@
 main {
 	min-height: 80vh;
+	margin-top: 2rem;
 }
 
 .nav-link {
@@ -16,6 +17,10 @@ main {
 
 .product-image {
 	width: 100%;
+}
+
+.rating span {
+	margin: 0.1rem;
 }
 
 /* Loading Spinner css */
