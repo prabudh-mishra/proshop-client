@@ -6,7 +6,7 @@ const Rating = ({ value, text }) => {
 	return (
 		<div className='rating'>
 			<span className='rating-star'>
-				{value >= 1 ? (
+				{value > 1 ? (
 					<FaStar />
 				) : value >= 0.5 ? (
 					<FaStarHalfAlt />
@@ -15,7 +15,7 @@ const Rating = ({ value, text }) => {
 				)}
 			</span>
 			<span className='rating-star'>
-				{value >= 2 ? (
+				{value > 2 ? (
 					<FaStar />
 				) : value >= 1.5 ? (
 					<FaStarHalfAlt />
@@ -24,7 +24,7 @@ const Rating = ({ value, text }) => {
 				)}
 			</span>
 			<span className='rating-star'>
-				{value >= 3 ? (
+				{value > 3 ? (
 					<FaStar />
 				) : value >= 2.5 ? (
 					<FaStarHalfAlt />
@@ -33,7 +33,7 @@ const Rating = ({ value, text }) => {
 				)}
 			</span>
 			<span className='rating-star'>
-				{value >= 4 ? (
+				{value > 4 ? (
 					<FaStar />
 				) : value >= 3.5 ? (
 					<FaStarHalfAlt />
@@ -42,7 +42,7 @@ const Rating = ({ value, text }) => {
 				)}
 			</span>
 			<span className='rating-star'>
-				{value >= 5 ? (
+				{value > 5 ? (
 					<FaStar />
 				) : value >= 4.5 ? (
 					<FaStarHalfAlt />
