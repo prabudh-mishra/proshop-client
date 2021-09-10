@@ -1,5 +1,6 @@
 main {
 	min-height: 80vh;
+	margin-top: 2rem;
 }
 
 .nav-link {
@@ -12,4 +13,25 @@ main {
 
 .rating-star {
 	color: goldenrod;
+}
+
+.product-image {
+	width: 100%;
+}
+
+.rating span {
+	margin: 0.1rem;
+}
+
+/* Loading Spinner css */
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
 }
